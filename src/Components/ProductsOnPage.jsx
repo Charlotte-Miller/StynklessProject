@@ -11,7 +11,7 @@ export default class ProductsOnPage extends Component
     render()
     {
         // let currentPage = this.props.match.params.current_page;
-        // this.setState({ currentPage });
+        // this.setState({ currentPage }); 
 
         const productPerPage = 6;
         const lastProductIndexToShow = this.state.currentPage * productPerPage;
